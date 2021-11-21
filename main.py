@@ -5,8 +5,16 @@ user_guess = int(input("Guess a number (1-10): "))
 
 if user_guess == my_number:
     print("You are correct")
-
+    
 # Exercise Two
+
+income = int(input("Enter income amount: "))
+credit_score = int(input("Enter credit score: "))
+
+if income > 50000 and credit_score > 650:
+    print("You are approved!")
+
+# Exercise Three
 
 secret_word = "password"
 user_guess = input("Guess secret word: ")
@@ -16,7 +24,7 @@ if secret_word == user_guess:
 else:
     print("You guessed incorrectly")
 
-    #Exercise 3
+# Exercise Four
 
 first_num = int(input("Enter a number: "))
 second_num = int(input("Enter a number: "))
